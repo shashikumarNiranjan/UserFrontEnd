@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import { isEmail, isEmpty, isLength, isContainWhiteSpace } from '../validation/validator';
 import { Row, FormGroup, FormControl, ControlLabel, HelpBlock } from 'react-bootstrap';
 import Header from './Header';
